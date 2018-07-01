@@ -34,6 +34,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'popper_js', '>= 1.12.9'
 gem 'bootstrap', '~> 4.1.1'
 gem 'tether-rails'
+gem 'kaminari'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
