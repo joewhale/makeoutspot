@@ -1,0 +1,9 @@
+<div class="col-10 offset-1">
+  <h1>Add new Makeout Place</h1>
+  <%= simple_form_for @place do |f| %>
+    <%= f.input :name %>
+    <%= f.input :description %>
+    <%= f.input :address %>
+    <%= f.submit 'Create'%>
+  <% end %>
+</div>

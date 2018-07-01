@@ -35,6 +35,7 @@ gem 'popper_js', '>= 1.12.9'
 gem 'bootstrap', '~> 4.1.1'
 gem 'tether-rails'
 gem 'kaminari'
+gem 'simple_form'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
