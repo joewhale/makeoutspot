@@ -1,10 +1,12 @@
-<h1>all the places</h1>
+<h1 class="title">all the places</h1>
 
-<hr>
-<% @places.each do |f| %>
-  <h2><%= f.name %></h2>
-  <p><%= f.address %></p>
-  <p><%= f.description %></p>
-  <hr>
 
-<% end %>
+<div class="col-10 offset-1">
+  <% @places.each do |f| %>
+    <h2><%= f.name %></h2>
+    <p><%= f.address %></p>
+    <p><%= f.description %></p>
+    <hr>
+
+  <% end %>
+</div>
