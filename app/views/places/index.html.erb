@@ -6,6 +6,9 @@
     <h2><%= f.name %></h2>
     <p><%= f.address %></p>
     <p><%= f.description %></p>
+    <% if f.user.present? %>
+      <small><%= f.user.email %></small>
+    <% end %>
     <hr>
 
   <% end %>
