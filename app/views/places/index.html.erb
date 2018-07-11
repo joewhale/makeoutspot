@@ -2,12 +2,12 @@
 
 
 <div class="col-10 offset-1">
-  <% @places.each do |f| %>
-    <h2><%= f.name %></h2>
-    <p><%= f.address %></p>
-    <p><%= f.description %></p>
-    <% if f.user.present? %>
-      <small><%= f.user.email %></small>
+  <% @places.each do |place| %>
+    <h2><%= link_to place.name, place_path(place) %></h2>
+    <p><%= place.address %></p>
+    <p><%= place.description %></p>
+    <% if place.user.present? %>
+      <small><%= place.user.email %></small>
     <% end %>
     <hr>
 
